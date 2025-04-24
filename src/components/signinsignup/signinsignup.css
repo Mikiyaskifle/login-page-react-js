@@ -1,0 +1,97 @@
+.bodys{
+    background-color: rgb(163, 158, 158);
+    color:brown;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid  rgb(180, 177, 177)  1px;
+
+}
+.container{
+     /* border: solid red 1px; */
+      color:rgba(0, 30, 228, 0.892);
+     height: 70vh;
+      background-color: rgb(180, 177, 177);
+     width: 650px;
+     padding: 3%;
+     margin-top: 50px;
+     margin-left: 500px
+     display: flex;
+     flex-direction: column;
+     box-shadow: 0 4px 15px rgba(0.2, 0.2, 0.2, 10);
+}
+.login{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left:250px;
+    margin-top: 0%;
+     /* border: solid red 1px; */
+
+}
+.dash{
+    height: 5px;
+    width: 100px;
+     margin-left:290px;
+    background-color: rgb(73, 73, 75);
+    box-shadow: 0 4px 15px rgba(0.2, 0.2, 0.2, 10);
+}
+.all-inputs{
+  margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.inputs img{
+    width:55px;
+    
+
+    height:55px;
+}
+.inputs{
+    display:flex ;
+    align-items: center;
+    
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+.inputs input{
+    height: 50px;
+    width:500px;
+    font-size: 20px ;
+}
+.clear{
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 150px;
+     color:goldenrod;
+}
+.clear span{
+    color:blue;
+    cursor: pointer;
+
+}
+.clear span:hover{
+     color:rgb(218, 32, 32);
+
+}
+.submit-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+.submit{
+     
+     font-size: 25px;
+     margin-left: 150px;
+     padding: 10px;
+    
+     cursor:pointer;
+     color:goldenrod;
+      border-radius: 40%;
+        background-color: rgb(73, 73, 75);
+        box-shadow: 0 4px 15px rgba(0.2, 0.2, 0.2, 10);
+}
+.submit:hover{
+  color:aliceblue;
+}
